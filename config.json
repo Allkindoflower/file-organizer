@@ -1,0 +1,19 @@
+{
+  "pdf": "Documents",
+  "doc": "Documents",
+  "docx": "Documents",
+  "txt": "Documents",
+  "jpg": "Images",
+  "jpeg": "Images",
+  "png": "Images",
+  "gif": "Images",
+  "mp4": "Videos",
+  "avi": "Videos",
+  "mkv": "Videos",
+  "mp3": "Audio",
+  "wav": "Audio",
+  "zip": "Archives",
+  "rar": "Archives",
+  "exe": "Programs",
+  "msi": "Programs"
+}
