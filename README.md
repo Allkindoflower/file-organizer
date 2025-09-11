@@ -66,6 +66,7 @@ Create a `config.json` file in the same directory as the application with your f
    ```bash
    python file_organizer.py
    ```
+...or download a standalone version here: https://github.com/Allkindoflower/file-organizer/releases/tag/tool
 
 2. Click the "Organize files" button to start the organization process
 
