@@ -1,6 +1,6 @@
-# File Organizer
+# File Organizer – Automatically sort your Downloads directory
 
-A simple GUI application that automatically organizes files in your Downloads folder based on configurable file extension rules.
+A simple GUI application that automatically organizes files in your Downloads directory based on configurable file extension rules.
 
 <img width="495" height="327" alt="image" src="https://github.com/user-attachments/assets/af9f142f-6988-4944-b712-8b636c4ec06a" />
 
@@ -10,7 +10,7 @@ A simple GUI application that automatically organizes files in your Downloads fo
 
 ## Features
 
-- **Automatic File Organization**: Sorts files from your Downloads folder into categorized subfolders
+- **Automatic File Organization**: Sorts files from your Downloads directory into categorized subfolders
 - **Configurable Rules**: Uses a JSON configuration file to define file extension mappings
 - **User-Friendly GUI**: Clean tkinter interface with progress tracking
 - **Threaded Operations**: Non-blocking file operations to maintain UI responsiveness
@@ -19,11 +19,11 @@ A simple GUI application that automatically organizes files in your Downloads fo
 ## Requirements
 
 - Python 3.6+
-- Standard library modules (tkinter, os, shutil, json, threading)
+- No external libraries required
 
 ## Installation
 
-1. Clone or download this repository
+1. Clone the repository or download a standalone executable  here: https://github.com/Allkindoflower/file-organizer/releases/tag/tool
 2. Ensure Python 3.6+ is installed on your system
 3. Create a `config.json` file in the same directory as the script
 
@@ -66,7 +66,6 @@ Create a `config.json` file in the same directory as the application with your f
    ```bash
    python file_organizer.py
    ```
-...or download a standalone version here: https://github.com/Allkindoflower/file-organizer/releases/tag/tool
 
 2. Click the "Organize files" button to start the organization process
 
@@ -76,12 +75,7 @@ Create a `config.json` file in the same directory as the application with your f
 
 ## How It Works
 
-1. The application scans your Downloads folder for files
-2. For each file, it extracts the file extension
-3. Based on the `config.json` mapping, it determines the target subfolder
-4. Creates the target subfolder if it doesn't exist
-5. Moves the file to the appropriate subfolder
-6. Skips directories during the organization process
+The application scans your Downloads folder, identifies file extensions, and moves files to the corresponding subfolders defined in config.json. Files not listed in the configuration are placed in an “Others” folder.
 
 ## Error Handling
 
