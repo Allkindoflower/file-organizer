@@ -2,7 +2,7 @@
 
 A simple GUI application that automatically organizes files in your chosen directory based on configurable file extension rules.
 
-<img width="495" height="327" alt="image" src="https://github.com/user-attachments/assets/af9f142f-6988-4944-b712-8b636c4ec06a" />
+<img width="498" height="328" alt="image" src="https://github.com/user-attachments/assets/71a0b1c4-1409-43fb-97b8-8a10e019131c" />
 
 <img width="498" height="330" alt="image" src="https://github.com/user-attachments/assets/31d959bc-c22f-4a4e-bfb7-a0893e841993" />
 
