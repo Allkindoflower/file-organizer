@@ -90,8 +90,8 @@ The application handles common errors gracefully:
 ```
 file-organizer/
 ├── file_organizer.py    # Main application file
-└── config.json          # Configuration file (user-created)
-└── README.md
+├── config.json          # Configuration file (user-created)
+├── README.md
 ```
 
 ## Safety Notes
