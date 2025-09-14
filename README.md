@@ -1,119 +1,98 @@
-# File Organizer – Automatically sort your Downloads directory
+# Uğur Baştuğ - Python Developer 👋
 
-A simple GUI application that automatically organizes files in your Downloads directory based on configurable file extension rules.
+Self-taught Python developer specializing in **web applications**, **productivity tools**, and **data-driven solutions**. I build practical software that solves real problems while exploring modern development practices.
 
-<img width="495" height="327" alt="image" src="https://github.com/user-attachments/assets/af9f142f-6988-4944-b712-8b636c4ec06a" />
+**Available for:** Full-time opportunities, freelance projects, collaborations
 
-<img width="498" height="330" alt="image" src="https://github.com/user-attachments/assets/31d959bc-c22f-4a4e-bfb7-a0893e841993" />
+---
+
+## 🚀 Featured Projects
+
+### [ISS Tracker](https://github.com/Allkindoflower/isstracker) | [Live Demo](https://isstracker-upgl.onrender.com)
+Real-time International Space Station tracker with geolocation analysis  
+
+## ISS over the Arabian Sea:  
+<img width="1022" height="749" alt="image" src="https://github.com/user-attachments/assets/ce49c120-2627-49f1-a06c-3617d1adf512" />
+
+## ISS over the Indian Ocean:  
+
+<img width="1016" height="718" alt="image" src="https://github.com/user-attachments/assets/77d01b96-2457-4e5d-bac2-30df41bbb6c2" />
 
 
+- **Impact:** Transforms complex space data into accessible, real-time information
+- **Tech:** Python, FastAPI, GeoPandas, Shapely, Folium
+- **Features:** REST API endpoints, land/ocean boundary detection, interactive mapping
 
-## Features
+### [Task Manager](https://github.com/Allkindoflower/task-manager) | [Live Demo](https://task-manager-7jyz.onrender.com)
+Gamified productivity app that turns tasks into "quests"
 
-- **Automatic File Organization**: Sorts files from your Downloads directory into categorized subfolders
-- **Configurable Rules**: Uses a JSON configuration file to define file extension mappings
-- **User-Friendly GUI**: Clean tkinter interface with progress tracking
-- **Threaded Operations**: Non-blocking file operations to maintain UI responsiveness
-- **Cross-Platform**: Works on Windows, macOS, and Linux
+---
 
-## Requirements
+## A sneak-peek of the Task Manager:
+<img width="707" height="900" alt="image" src="https://github.com/user-attachments/assets/74b89fb2-41b2-4b49-8cd8-6db77c0c6516" />  
 
-- Python 3.6+
-- No external libraries required
 
-## Installation
+- **Impact:** Increases user engagement through game mechanics and UX design
+- **Tech:** Python, FastAPI, SQLite, Docker, Pytest
+- **Features:** Full-stack architecture, comprehensive testing, containerized deployment
 
-1. Clone the repository or download a standalone executable  here: https://github.com/Allkindoflower/file-organizer/releases/tag/tool
-2. Ensure Python 3.6+ is installed on your system
-3. Create a `config.json` file in the same directory as the script
+### [File Organizer](https://github.com/Allkindoflower/file-organizer)
+Desktop GUI application for automated file organization
 
-## Configuration
+## The Downloads directory, Before/During/After:  
+<img width="847" height="449" alt="image" src="https://github.com/user-attachments/assets/bf5b4259-c5a8-4589-8121-334d4f8a1627" />  
+<img width="496" height="324" alt="image" src="https://github.com/user-attachments/assets/633ce65c-da63-479a-989b-d0e725814ea4" />
+<img width="495" height="326" alt="image" src="https://github.com/user-attachments/assets/b9fecd49-7ad7-46a3-a7bf-2b174931561c" />   
+<img width="892" height="488" alt="image" src="https://github.com/user-attachments/assets/fef5c46a-39fc-4e0e-aa11-095e7bc6b093" />  
 
-Create a `config.json` file in the same directory as the application with your file organization rules:
+---
 
-```json
-{
-  "pdf": "Documents",
-  "doc": "Documents",
-  "docx": "Documents",
-  "txt": "Documents",
-  "jpg": "Images",
-  "jpeg": "Images",
-  "png": "Images",
-  "gif": "Images",
-  "mp4": "Videos",
-  "avi": "Videos",
-  "mkv": "Videos",
-  "mp3": "Audio",
-  "wav": "Audio",
-  "zip": "Archives",
-  "rar": "Archives",
-  "exe": "Programs",
-  "msi": "Programs"
-}
-```
+- **Impact:** Saves users time with one-click directory organization
+- **Tech:** Python, Tkinter, JSON configuration
+- **Features:** Cross-platform compatibility, threaded operations, customizable rules
 
-### Configuration Rules
+### [Mood Logger](https://github.com/Allkindoflower/mood-tracker-web) | [Live Demo](https://mood-tracker-web.onrender.com)
+Lightweight mood tracking web application
 
-- **Key**: File extension (without the dot)
-- **Value**: Target folder name where files with this extension will be moved
-- Files with extensions not listed in the configuration will be moved to an "Others" folder
-- Folder names are case-sensitive and will be created as subfolders in your Downloads directory
+---
 
-## Usage
+## Mood logger with 2 entries, color-coded:
+<img width="648" height="888" alt="image" src="https://github.com/user-attachments/assets/942d92cb-a217-4b90-879f-50314f574529" />
 
-1. Run the application:
-   ```bash
-   python file_organizer.py
-   ```
+## How it works information panel:
+<img width="543" height="754" alt="image" src="https://github.com/user-attachments/assets/e58953d5-12b5-45d0-b151-83aeb7b4dc92" />
 
-2. Click the "Organize files" button to start the organization process
 
-3. The progress bar will show the current operation status
+- **Impact:** Promotes self-awareness by automatically analyzing mood entries and color-coding them based on sentiment.
+- **Tech:** Python, FastAPI, SQLite, Vanilla JavaScript
+- **Features:** Local data storage, responsive design, privacy-focused
 
-4. A success message will display the number of files organized
+---
 
-## How It Works
+## 🛠️ Technical Skills
 
-The application scans your Downloads folder, identifies file extensions, and moves files to the corresponding subfolders defined in config.json. Files not listed in the configuration are placed in an “Others” folder.
+**Languages:** Python (primary), JavaScript, HTML/CSS  
+**Frameworks:** FastAPI, Flask, exploring Django  
+**Databases:** SQLite, working with GeoPandas  
+**Tools:** Docker, Git, Pytest, Tkinter  
+**Cloud:** Render deployment, REST API design  
 
-## Error Handling
+**Strengths:** Backend development, API design, data processing, UI/UX thinking
 
-The application handles common errors gracefully:
+---
 
-- **Permission Errors**: Displays a message suggesting to run as administrator
-- **Missing Configuration**: Shows an error if `config.json` is not found
-- **General Exceptions**: Catches and displays any unexpected errors
+## 🌱 Current Focus
 
-## File Structure
+- Scaling REST APIs and deployment patterns
+- Test-driven development and code quality
+- Frontend-backend integration best practices
+- Data visualization and analytics features
 
-```
-file-organizer/
-├── file_organizer.py    # Main application file
-└── config.json          # Configuration file (user-created)
-└── README.md
-```
+---
 
-## Safety Notes
+## 📫 Let's Connect
 
-- The application only moves files, it doesn't delete them
-- Directories in Downloads are skipped and left untouched
-- All operations are performed within the Downloads folder
-- Original file names and extensions are preserved
+**Email:** bastugugur85@gmail.com  
+**LinkedIn:** [Uğur Baştuğ](https://www.linkedin.com/in/ugur-ba%C5%9Ftu%C4%9F-62b262315/)
 
-## Troubleshooting
-
-### "config.json not found" Error
-Ensure the `config.json` file is in the same directory as the Python script.
-
-### Permission Errors
-Try running the application with administrator privileges:
-- **Windows**: Right-click and select "Run as administrator"
-- **macOS/Linux**: Use `sudo python file_organizer.py`
-
-### No Files Moved
-Check that your Downloads folder contains files (not just directories) and that your `config.json` is properly formatted.
-
-## License
-
-This project is open source and available under the MIT License.
+Open to discussing opportunities in web development, data projects, or any challenging Python work. Ready to contribute to meaningful projects and grow with a dynamic team.
