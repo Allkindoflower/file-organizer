@@ -1,4 +1,5 @@
 import os
+import sys
 import shutil
 import json
 import threading
@@ -6,6 +7,15 @@ import threading
 from tkinter import messagebox, filedialog
 import tkinter as tk
 import tkinter.ttk as ttk
+
+if getattr(sys, 'frozen', False):
+    # Running as PyInstaller bundle
+    base_path = sys._MEIPASS
+    exe_dir = os.path.dirname(sys.executable)
+else:
+    # Running as normal script
+    base_path = os.path.dirname(os.path.abspath(__file__))
+    exe_dir = base_path
 
 # --- Helper functions ---
 def show_info(title, message):
@@ -57,15 +67,14 @@ def organize_files():
     if not selected_folder:
         show_info("Error", "No source folder selected.")
         return
-
+    
     folder_to_organize = selected_folder
     base_folder = selected_target_folder if selected_target_folder else folder_to_organize
 
     root.after(0, lambda: progress.config(value=0))
 
     # Load config.json
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    config_path = os.path.join(script_dir, "config.json")
+    config_path = os.path.join(exe_dir, "config.json")
 
     try:
         with open(config_path, "r") as f:
